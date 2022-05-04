@@ -25,7 +25,11 @@ router.delete("/:id/rant/:rantId", (req, res) => {
   res.send(`This Is DELETE/places/${req.params.id}/rant/${req.params.rantId}`);
 });
 
-
+// POST method route
+// router.post("/", (req, res) => {
+//   console.log(req.body);
+//   res.send("POST for places");
+// });
 
 router.post("/", (req, res) => {
   console.log(req.body);
