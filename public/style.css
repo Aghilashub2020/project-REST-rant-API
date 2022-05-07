@@ -14,7 +14,7 @@ h1 {
 
   margin-top: 20px;
 }
-img.food1 {
+img.food-image {
   width: 200px;
   height: 200px;
   display: block;
@@ -86,21 +86,11 @@ main.home {
   align-self: auto;
   font-style: italic;
 }
-/* .rating {
-  align-self: auto;
-} */
-/* .index {
-  text-align: center;
-  font-family: sans-serif;
-} */
+
 .located {
   padding-top: 10px;
 }
-/* .indexList {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-} */
+
 nav {
   background-color: cornflowerblue;
   padding: 10px;
