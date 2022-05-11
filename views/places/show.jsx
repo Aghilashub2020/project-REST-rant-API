@@ -9,7 +9,7 @@ function show(data) {
         <h1 className="dataPlace">{data.place.name}</h1>
         <img
           className="showPage"
-          src={`/${data.place.pic}`}
+          src={`${data.place.pic}`}
           alt={data.place.name}
         />
         <h2 className="description">Description</h2>
