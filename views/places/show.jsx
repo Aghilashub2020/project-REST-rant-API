@@ -79,10 +79,10 @@ function show(data) {
           </div>
           <div className="row">
             <div className="form-group col-sm-4">
-              <label htmlFor="author">Author</label>
+              <label for="author">Author</label>
               <input id="author" name="author" className="form-control" />
             </div>
-            <div className="form-group col-sm-4">
+            <div id="slidecontainer" className="form-group col-sm-4">
               <label htmlFor="stars">Star Rating</label>
               <input
                 type="range"
